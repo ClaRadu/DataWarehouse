@@ -6,7 +6,7 @@ $params = array(
 	'srv' => 'localhost',
 	'usr' => 'root',
 	'pas' => '',
-	'dbs' => 'cryza_11'
+	'dbs' => ''
 	);
 	
 $tables = array(
@@ -25,3 +25,4 @@ if (!$con) { die('Could not connect: ' . mysql_error()); }
 $db_list = mysqli_query($con, "SHOW DATABASES");
 
 ?>
+
