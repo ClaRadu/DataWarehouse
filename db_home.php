@@ -1,0 +1,115 @@
+<?php include 'dbs/session.php'; ?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html>
+<head>
+<TITLE>D.W. home</TITLE>
+<META NAME=AUTHOR CONTENT="Radu Claudiu CR-games" />
+  
+<style type="text/css">
+A:link { color: red; 
+	text-decoration: none }
+A:visited { color: red; 
+	text-decoration: none }
+A:hover {   color : green;
+	text-decoration: underline }
+A:active { color: red }
+
+font.one {
+  text-align:left;
+  margin-left:5px;
+  color:white
+}
+</style>
+</head>
+
+<body bgcolor="black" text="#FFFFFF">
+
+<table style="vertical-align:center;margin-left:33%;" border="0" cellpadding="0" 
+	cellspacing="0" width="550">
+  <tbody>
+    <tr height="30">
+      <td height="30" width="30"><img src="img/topLeft.gif"
+ alt="" border="0" height="30" width="30"></td>
+      <td background="img/top.gif" height="30" width="490"></td>
+      <td height="30" width="30"><img src="img/topRight.gif"
+ alt="" border="0" height="30" width="30"></td>
+    </tr>
+    <tr>
+      <td background="img/left.gif" width="30"></td>
+      <td align="left" background="img/middle.jpg" valign="top"
+ width="490"><font style="font-size: 14px;" color="#333333"
+ face="verdana">
+
+   <center><font id="bla">Hello <?php echo isset($login_sess) ? $login_sess : 'stranger' ?>!</font></center>
+
+   <img style="margin-left:22%;" src="img/factory2.png"
+		 alt="C.R.G.D.W" >
+<br>
+
+<small><a href="dbs/logout.php">Logout</a></small>
+
+<br><br>
+
+<center>
+<a href="db_home.php" target="_blank" >| HOME | </a>
+<a href="db_main.php" target="_blank" > | OPERATIONS |</a>
+</center>
+
+<hr />
+
+<p><font class="one"><b>PC Warehouse</b> este o firma care se ocupa cu vanzarea de 
+componente PC ( computer personal ). Aceasta firma este una virtuala si scopul ei
+este de a exemplifica funcionarea unui sistem Data Warehouse in cadrul unei companii.
+<hr />
+<hr />
+Toate datele cu privire la componentele PC scoase la vanzare de firma mentionata mai sus
+( informatiile privind tipul acestora, furnizorii lor, numarul
+de unitati vandute, etc. ) sunt stocate intr-o baza de date, de unde pot fi vizualizate si
+ modificate de catre utilizator. 
+<br>Aceste operatii se pot realiza in pagina <i>'Operations'</i>.
+<hr />
+In pagina mentionata mai sus se pot realiza urmatoarele operatii:
+<ul>
+<li>citire date din B.D.;</li>
+<li>adaugare date in B.D.;</li>
+<li>actualizarea datelor B.D.;</li>
+<li>stergerea datelor din B.D.;</li>
+<li>salvarea datelor din B.D. intr-un fisier extern;</li>
+</ul>
+
+</font>
+</p>
+
+<hr />
+
+ <a style="margin-left:3%;font-size:10px;" href="#bla">Back To Top</a>
+
+      <td background="img/right.gif" width="30"></td>
+    </tr>
+    <tr height="30">
+      <td height="30" width="30"><img src="img/BottomLeft.gif"
+ alt="" border="0" height="30" width="30"></td>
+      <td background="img/bottom.gif" height="30" width="490"></td>
+      <td height="30" width="30"><img
+ src="img/BottomRight.gif" alt="" border="0" height="30"
+ width="30"></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<font style="vertical-align:center;margin-left:46%;" 
+		color="#666666" face="Georgia, verdana" size="1">
+©2011-
+<script type="text/javascript">
+var d=new Date();
+document.write(d.getFullYear());
+</script>
+CR Games. All rights reserved. 
+</font>
+
+</body>
+</html>
