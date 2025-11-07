@@ -1,0 +1,19 @@
+body { font-family: "Lato", sans-serif }
+
+.myImg { display: block; opacity: 0.9; }
+.a1:link { color: green; text-decoration: none; }
+.a1:visited { color: green; text-decoration: none; }
+.a1:hover { color: red; text-decoration: underline; }
+.a1:active { color: green; }
+	
+table.a, td.a, th.a {
+	border: 1px solid green;
+	margin: auto;
+}
+/*
+th.a {
+	background-color:green;
+	color:white;
+}*/
+
+.a { color:white; }

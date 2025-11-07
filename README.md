@@ -1,7 +1,7 @@
-### Data Warehouse v.1.02
-This project was created for my Bachelor Degree and it demonstrates the use of a simple Data Warehouse system for the benefit of a virtual company.
+### Data Warehouse v.2.01
+This project is an update of my older, Bachelor Degree project, and it demonstrates the use of a simple Data Warehouse system for the benefit of a virtual company.
 
-The app offers a simple rating system for its tables and CRUD capabilities.
+The app offers an improved rating system for its tables and CRUD capabilities as well as an improved interface.
 
 This app was created to work straight out of the box so it will only require PHP.
 
